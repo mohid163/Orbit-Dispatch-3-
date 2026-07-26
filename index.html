@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Orbit Dispatch</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+  <a href="https://wa.me/923284674612" class="whatsapp-float" target="_blank">
+  <i class="fab fa-whatsapp"></i>
+  <span class="whatsapp-tooltip">Chat with us</span>
+</a>
+
+  <!-- Header -->
+  <!-- Header -->
+<header class="navbar">
+
+  <a href="index.html" class="logo">
+    <img src="appicon (2).svg" alt="Orbit Dispatch Logo" class="logo-img" />
+    <span class="logo-text">Orbit Dispatch</span>
+  </a>
+
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+<li><a href="#features">Features</a></li>
+<li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <!-- Hero Section -->
+<section class="hero" id="home">
+  
+  <!-- LEFT CONTENT -->
+  <div class="hero-content">
+    <h1 class="hero-title">
+      Smart UK Dispatch
+      <span class="word-slider">
+        <span>Solutions</span>
+        <span>Reliability</span>
+        <span>Automation</span>
+        <span>Efficiency</span>
+      </span>
+    </h1>
+
+    <p>
+      Streamline your trips, routes, and pick-drop operations with Orbit Dispatch — built for efficiency and reliability.
+    </p>
+
+    <br>
+
+    <ul class="hero-points">
+      <li>Real-time fleet and driver tracking</li>
+      <li>Automated route and dispatch management</li>
+      <li>Secure cloud-based dispatch platform</li>
+      <li>Fast pick-drop scheduling system</li>
+      <li>Smart analytics and performance insights</li>
+    </ul>
+
+    <br>
+<a href="contact.html" class="btn-primary contact-us-btn">
+    Contact Us
+</a>
+  </div>
+
+  <!-- RIGHT IMAGE -->
+  <div class="hero-image">
+    <img 
+  src="Screenshot 2026-05-10 212224.png" 
+  alt="Dispatch Dashboard"
+  class="dashboard-img"
+  style="width: 750px; height: 400px; border: 4px solid white; border-radius: 20px;">
+
+    <!-- OPTIONAL PHONE IMAGE -->
+    <img src="Screenshot 2026-05-10 212723.png" alt="Mobile App" class="phone-mockup">
+  </div>
+
+</section>
+
+ <section class="brands ods-section">
+  
+  <b><h1 class="animated-heading">
+  What is ODS (Orbit Dispatch System)?
+</h1></b>
+
+  <div class="ods-container">
+
+    <!-- LEFT: TEXT -->
+    <div class="ods-text">
+      <p>
+        Orbit Dispatch System (ODS) is a smart dispatch platform designed to manage trips, drivers, and fleet operations in real time.
+        It helps automate routing, improve efficiency, and provide live tracking for transport and logistics services.
+      </p>
+
+      <p>
+        Built for modern UK-style dispatch operations, ODS brings everything into one system. from booking to completion with speed, accuracy, and reliability.
+      </p>
+    </div>
+
+    <!-- RIGHT: LOGO -->
+    <div class="ods-image">
+      <img src="appicon (2).svg" alt="ODS Logo" />
+    </div>
+
+  </div>
+
+</section>
+
+<section class="how-it-works">
+
+  <h2>How Orbit Dispatch Makes Transportation Easier</h2>
+
+  <p class="intro">
+    ODS simplifies taxi and transport operations by automating bookings, dispatch, tracking, and payments — all in one platform.
+  </p>
+
+  <div class="how-container">
+
+    <!-- LEFT IMAGE -->
+    <div class="how-image">
+      <img src="Screenshot 2026-05-11 111220.png" alt="Dashboard Preview">
+    </div>
+
+    <!-- RIGHT CONTENT -->
+    <div class="how-content">
+
+      <div class="point">
+        <h3>Quick Booking</h3>
+        <p>Customers can book rides instantly via app or website with automatic fare calculation.</p>
+      </div>
+
+      <div class="point">
+        <h3>Smart Driver Allocations</h3>
+        <p>The system automatically assigns the nearest available driver to reduce waiting time.</p>
+      </div>
+
+      <div class="point">
+        <h3>Fast Driver Updates</h3>
+        <p>Drivers receive trip details instantly on their app for fast response.</p>
+      </div>
+
+      <div class="point">
+        <h3>Live Current Tracking</h3>
+        <p>Track every trip in real time for full visibility and control.</p>
+      </div>
+
+      <div class="point">
+        <h3>Safe Payments</h3>
+        <p>Automated payment processing with multiple secure payment methods.</p>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<section class="app-switcher">
+
+  <h2>Effortless Booking in the Palm of Your Hand</h2>
+  <p class="intro">
+    Stay competitive, attract new customers, and automate bookings with your Orbit Dispatch ecosystem.
+  </p>
+
+  <!-- BUTTONS -->
+  <div class="switch-buttons">
+    <button class="switch-btn active" onclick="showApp('driver')">Driver App</button>
+    <button class="switch-btn" onclick="showApp('booking')">Online Booking</button>
+    <button class="switch-btn" onclick="showApp('dispatch')">Dispatch System</button>
+  </div>
+
+  <!-- CONTENT AREA -->
+  <div class="switch-container">
+
+    <!-- LEFT TEXT -->
+    <div class="switch-text" id="switchText">
+      Driver App allows drivers to receive trips instantly, navigate routes, and update trip status in real time.
+    </div>
+
+    <!-- RIGHT IMAGE -->
+    <div class="switch-image">
+      <img id="switchImage" src="Screenshot 2026-05-10 212723.png" alt="App Preview">
+    </div>
+
+  </div>
+
+</section>
+
+  <section class="system-features" id="features">
+
+  <h2>Orbit Dispatch System Features</h2>
+
+  <div class="features-wrapper">
+
+    <!-- LEFT SIDE -->
+    <div class="features-list">
+
+      <div class="feature-item">
+        <span class="tick">✔</span>
+        <p>Passenger Apps (Android & iOS)</p>
+      </div>
+
+      <div class="feature-item">
+        <span class="tick">✔</span>
+        <p>Secure Payment Gateways</p>
+      </div>
+
+      <div class="feature-item">
+        <span class="tick">✔</span>
+        <p>GDPR Compliance & Data Protection</p>
+      </div>
+
+      <div class="feature-item">
+        <span class="tick">✔</span>
+        <p>Manual & Auto Dispatch System</p>
+      </div>
+
+      <div class="feature-item">
+        <span class="tick">✔</span>
+        <p>User Access Restrictions</p>
+      </div>
+
+      <div class="feature-item">
+        <span class="tick">✔</span>
+        <p>Google Translate Integration</p>
+      </div>
+
+      <div class="feature-item">
+        <span class="tick">✔</span>
+        <p>Advanced Driver App</p>
+      </div>
+
+      <div class="feature-item">
+        <span class="tick">✔</span>
+        <p>Caller ID Support</p>
+      </div>
+
+    </div>
+
+    <!-- RIGHT SIDE -->
+    <div class="features-image">
+      <img src="Screenshot 2026-05-14 122233.png" alt="Orbit Dispatch App">
+    </div>
+
+  </div>
+
+</section>
+
+ <section class="info-blocks">
+
+  <h2>Why Businesses and You Should Choose Orbit Dispatch System</h2>
+
+  <p class="blocks-intro">
+    Discover the powerful features designed to streamline transportation operations,
+    improve efficiency, and enhance customer satisfaction.
+  </p>
+
+  <div class="blocks-grid">
+
+    <div class="info-card" style="--i:1">
+      <div class="icon">🧾</div>
+      <h3>Comprehensive Invoicing</h3>
+      <p>Generate detailed and accurate invoices with ease.</p>
+    </div>
+
+    <div class="info-card" style="--i:2">
+      <div class="icon">📊</div>
+      <h3>Driver Statements & Reports</h3>
+      <p>Clear summaries of driver activity and earnings.</p>
+    </div>
+
+    <div class="info-card" style="--i:3">
+      <div class="icon">🛰️</div>
+      <h3>Real-Time Vehicle Tracking</h3>
+      <p>Monitor your fleet live for better control.</p>
+    </div>
+
+    <div class="info-card" style="--i:4">
+      <div class="icon">🚖</div>
+      <h3>Smart Driver Dispatch</h3>
+      <p>Assign drivers based on location and availability.</p>
+    </div>
+
+    <div class="info-card" style="--i:5">
+      <div class="icon">👨‍✈️</div>
+      <h3>Driver Management</h3>
+      <p>Track performance and manage drivers efficiently.</p>
+    </div>
+
+    <div class="info-card" style="--i:6">
+      <div class="icon">📱</div>
+      <h3>Custom Ride Options</h3>
+      <p>Handle both on-demand and pre-scheduled rides.</p>
+    </div>
+
+    <div class="info-card" style="--i:7">
+      <div class="icon">📈</div>
+      <h3>Scalable System</h3>
+      <p>Suitable for small startups to large fleets.</p>
+    </div>
+
+    <div class="info-card" style="--i:8">
+      <div class="icon">💬</div>
+      <h3>Driver-Passenger Messaging</h3>
+      <p>Real-time communication for smooth rides.</p>
+    </div>
+
+    <div class="info-card" style="--i:9">
+      <div class="icon">🧮</div>
+      <h3>Detailed Account Tools</h3>
+      <p>Manage accounts with full invoicing and reporting.</p>
+    </div>
+
+    <div class="info-card" style="--i:10">
+      <div class="icon">🔐</div>
+      <h3>Secure & Reliable</h3>
+      <p>Enterprise-grade security with backups and redundancy.</p>
+    </div>
+
+    <div class="info-card" style="--i:11">
+      <div class="icon">📲</div>
+      <h3>Flexible Booking Options</h3>
+      <p>Accept bookings via app, website, phone, SMS, or email.</p>
+    </div>
+
+    <div class="info-card" style="--i:12">
+      <div class="icon">📉</div>
+      <h3>Advanced Analytics</h3>
+      <p>Gain business insights with detailed reporting.</p>
+    </div>
+
+    <div class="info-card" style="--i:13">
+      <div class="icon">☁️</div>
+      <h3>Cloud-Based Platform</h3>
+      <p>Access your system from any device, anywhere.</p>
+    </div>
+
+    <div class="info-card" style="--i:14">
+      <div class="icon">💳</div>
+      <h3>Secure Payment Integration</h3>
+      <p>Supports multiple secure payment methods.</p>
+    </div>
+
+    <div class="info-card" style="--i:15">
+      <div class="icon">🛣️</div>
+      <h3>Intelligent Route Planning</h3>
+      <p>Reduce travel time and save fuel efficiently.</p>
+    </div>
+
+    <div class="info-card" style="--i:16">
+      <div class="icon">⚡</div>
+      <h3>Dynamic Pricing</h3>
+      <p>Set surge or off-peak fares automatically.</p>
+    </div>
+
+  </div>
+
+</section>
+
+  <section class="faq-section">
+
+  <button class="faq-btn">Orbit Dispatch FAQs</button>
+
+  <div class="faq-container">
+
+    <div class="faq-item">
+      <h3 class="faq-question">How does Orbit Dispatch pricing work?</h3>
+      <div class="faq-answer">
+        <p>Orbit Dispatch uses a scalable subscription model based on fleet size, so you only pay for what you use as your business grows.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <h3 class="faq-question">Can I switch from another dispatch system without losing data?</h3>
+      <div class="faq-answer">
+        <p>Yes, Orbit Dispatch supports smooth migration tools to transfer your data safely with minimal downtime.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <h3 class="faq-question">Does Orbit Dispatch use AI technology?</h3>
+      <div class="faq-answer">
+        <p>Yes, AI is used for smart driver allocation, route optimization, and dispatch efficiency.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <h3 class="faq-question">What features improve fleet performance?</h3>
+      <div class="faq-answer">
+        <p>Live tracking, automated dispatch, driver analytics, and reporting tools improve overall efficiency.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <h3 class="faq-question">Is Orbit Dispatch suitable for small businesses?</h3>
+      <div class="faq-answer">
+        <p>Yes, the system is fully scalable and works for both small taxi companies and large fleets.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <h3 class="faq-question">How secure is Orbit Dispatch?</h3>
+      <div class="faq-answer">
+        <p>We use encrypted data storage, secure servers, and role-based access control for maximum security.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <h3 class="faq-question">Can drivers and passengers communicate?</h3>
+      <div class="faq-answer">
+        <p>Yes, built-in messaging allows real-time communication for smoother rides.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <h3 class="faq-question">What support is available after setup?</h3>
+      <div class="faq-answer">
+        <p>We provide onboarding, technical support, and regular system updates.</p>
+      </div>
+    </div>
+
+  </div>
+
+</section>
+
+  <footer class="footer">
+  <div class="footer-container">
+
+    <!-- LEFT: LOGO -->
+    <div class="footer-logo">
+      <img src="appicon (2).svg" alt="Orbit Dispatch Logo" />
+      <h2>Orbit Dispatch</h2>
+      <p>Smart Dispatch System for Modern Fleets</p>
+    </div>
+
+    <!-- MIDDLE: RESOURCES -->
+    <div class="footer-section">
+  <h3>Resources</h3>
+
+  <ul>
+    <li><a href="blog.html">Blogs</a></li>
+
+    <li>
+      <a href="terms.html">
+        Terms & Conditions
+      </a>
+    </li>
+
+    <li>
+      <a href="privacy.html">
+        Privacy Policy
+      </a>
+    </li>
+  </ul>
+</div>
+
+    <!-- RIGHT: CONTACT -->
+    <div class="footer-section">
+      <h3>Contact</h3>
+      <p>📞 +44 782 892 6870</p>
+      <p>📞 +44 203 355 7887</p>
+      <p>📧 info@taxibasesoftware.com</p>
+      <p>📍 High Wycombe, United Kingdom</p>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2026 Orbit Dispatch. All Rights Reserved.</p>
+  </div>
+</footer>
+
+  <script src="index.js"></script>
+</body>
+</html>
